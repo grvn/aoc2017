@@ -9,6 +9,7 @@ def revList(lst,start,howmany):
     return lst
 
 filename = sys.argv[1]
+#256
 size = int(sys.argv[2])
 
 with open(filename) as f:
@@ -29,5 +30,4 @@ for i in range(0, size, 16):
     for j in range(i, i+16):
         block ^= thelist[j]
     dense.append("%02x" % block)
-print "%02x" % 10
 print "Answer:",''.join(dense)
