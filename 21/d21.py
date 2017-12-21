@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-import sys
+from sys import argv
 
-filename=sys.argv[1]
-iterations=int(sys.argv[2])
+filename=argv[1]
+iterations=int(argv[2])
 rules={}
 start=((".", "#", "."), (".", ".", "#"), ("#", "#", "#"))
 
