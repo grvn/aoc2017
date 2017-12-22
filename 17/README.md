@@ -25,9 +25,9 @@ And so on:
     0 (9) 5  7  2  4  3  8  6  1
 ```
 Eventually, after 2017 insertions, the section of the circular buffer near the last insertion looks like this:
-
+```
 1512  1134  151 (2017) 638  1513  851
-
+```
 Perhaps, if you can identify the value that will ultimately be after the last value written (2017), you can short-circuit the spinlock. In this example, that would be 638.
 
 What is the value after 2017 in your completed circular buffer?

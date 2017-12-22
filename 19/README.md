@@ -14,12 +14,12 @@ Sometimes, the lines cross over each other; in these cases, it needs to continue
      +B-+  +--+ 
 ```
 Given this diagram, the packet needs to take the following path:
-```
-    Starting at the only line touching the top of the diagram, it must go down, pass through A, and continue onward to the first +.
-    Travel right, up, and right, passing through B in the process.
-    Continue down (collecting C), right, and up (collecting D).
-    Finally, go all the way left through E and stopping at F.
-```
+
+   - Starting at the only line touching the top of the diagram, it must go down, pass through A, and continue onward to the first +.
+   - Travel right, up, and right, passing through B in the process.
+   - Continue down (collecting C), right, and up (collecting D).
+   - Finally, go all the way left through E and stopping at F.
+
 Following the path to the end, the letters it sees on its path are ABCDEF.
 
 The little packet looks up at you, hoping you can help it find the way. What letters will it see (in the order it would see them) if it follows the path? (The routing diagram is very wide; make sure you view it without line wrapping.)
